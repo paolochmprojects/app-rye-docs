@@ -1,4 +1,4 @@
-# Manual de Usuario de App Rye
+# Documentación App Rye
 
 Version 1.0.0 - App Rye
 

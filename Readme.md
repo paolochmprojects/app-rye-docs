@@ -215,17 +215,20 @@ Formulario de multiples pasos, para la creacion de empresas, sitios, gestion de 
 y usuarios de una empresa.
 
 - Pasos:
-  - Add Companies: En este paso se podrá visualizar una tabla en la que se podrá añadir  los nombre de
-    las compañias que se van a crear. En la parte inferior existe un botón para añadir más filas 
+
+  - Add Companies: En este paso se podrá visualizar una tabla en la que se podrá añadir los nombre de
+    las compañias que se van a crear. En la parte inferior existe un botón para añadir más filas
     según se requiera.
 
   - Add Users: En este paso se podrá visualizar una tabla, en la cual debera asignar una de las compañias
     que se esta creando, el rol de usuario y el email con el que iniciar sesión.
 
-  - Add Sites: En este paso se debera subir facturas anteriores, luego se generar las filas en una tabla
-    en la que se podrá,  
-  - Add Documentes:
-  - Confirm:
+  - Add Sites: En este paso se encuentra divido en dos subpasos, primero se mostrara un asistente para poder subir archivos, una ves confirmado, cambiará al segundo subpaso que mostrara una tabla que habrá en donde se habrá generado tantas filas como facturas se hayan subido, se deberá asignar a que compañia pertenece cada sitio por crear, y rellenar el resto de dato.
+
+  - Add Documentes: En este paso se visualizará una tabla, con los sitios que se añadiran y campos en los cuales se deberá subir
+    los documentos respectivos en formato PDF, de existir un archivo equivacado se podrá reemplazar en el mismo campo.
+
+  - Confirm: En este paso se deberá previsualizar los datos y archivos que crearan agrupados en su respectiva compañia antes de ser subidos al sistema y dar al botón confirmar para terminar con el formulario.
 
 ### Monthly readings
 
@@ -255,8 +258,7 @@ Formulario de mutiples pasos para el carga de nuevas facturas facturas y datos.
   - Next Steps: En este paso se podrá rellenar ciertas caracteristicas, de las facturas a subir como
     de que tipo son, la action recomendada y si esta ya esta pagada.
 
-  - Confirm: En este paso de podrá visualizar los datos antes de ser subidos al sistema y dar al botón
-    de confirmar y terminar con el formulario.
+  - Confirm: En este paso de podrá visualizar los datos antes de ser subidos al sistema y dar al botón para terminar con el formulario.
 
 #### Deleted incorrect readings
 
@@ -271,7 +273,7 @@ Formulario de mutiples pasos para el borrado de facturas en el sistema.
     siguiente paso.
 
   - Confirm: En este paso se previsualizarán las facturas que serán eliminadas
-    del sitema antes de dar al botón de confirmar.
+    del sitema antes de dar al botón de confirmar para terminar el formulario.
 
 #### Update readings
 
@@ -289,7 +291,7 @@ Formulario para la actualización de facturas y datos de lecturas en el sistema.
     en el paso anterior.
 
   - Confirm: En este paso se previsualizarán los datos que se actualizar antes
-    de dar al botón de confirmar.
+    de dar al botón de confirmar para terminar el formulario.
 
 ### Update
 
@@ -305,4 +307,4 @@ El formulario cuenta con una visualización del paso actual y los siguientes.
   - Edit: Se puede editar los MPAN que han sido filtrado en el paso anterior.
 
   - Confirm: Se puede mostrar los datos antes de actualizar antes dar al botón
-    de confirmar.
+    de confirmar para terminar el formulario.
